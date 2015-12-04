@@ -1,0 +1,70 @@
+{
+    "library_last_updated": "2015-12-01 00:00:00",
+    "data_library": [
+	{
+	    "id": "297f9a7whf",
+	    "type": "CSV",
+	    "semantic_id": "user-engagement-by-country",
+	    "item_name": "User Engagement by Country",
+	    "author_name": "achen",
+	    "last_updated": "2015-11-30 01:00:00",
+	    "data_dependencies": [
+		{
+		    "id": "4657543n",
+		    "semantic_id": "top-line-metrics",
+		    "item_name": "Top Line Metrics"
+		},
+		{
+		    "id": "74nfbsd",
+		    "semantic_id": "engagement-by-country",
+		    "item_name": "Engagement By Country"
+		},
+		{
+		    "id": "10fn128n",
+		    "semantic_id": "brazil-deep-dive",
+		    "item_name": "Brazil Deep Dive"
+		}
+	    ]
+	},
+	{
+	    "id": "7hurenvlsdj",
+	    "type": "SQL",
+	    "semantic_id": "user-engagement-by-user-status",
+	    "item_name": "User Engagement by User Status",
+	    "author_name": "achen",
+	    "last_updated": "2015-11-30 01:00:00",
+	    "data_dependencies": [
+		{
+		    "id": "74nfbsd",
+		    "semantic_id": "engagement-by-country",
+		    "item_name": "Engagement By Country"
+		},
+		{
+		    "id": "10fn128n",
+		    "semantic_id": "brazil-deep-dive",
+		    "item_name": "Brazil Deep Dive"
+		}
+	    ]
+	},
+	{
+	    "id": "b7heunvuenabfdsk",
+	    "type": "XML",
+	    "semantic_id": "article-engagements",
+	    "item_name": "Article Engagements (raw)",
+	    "author_name": "achen",
+	    "last_updated": "2015-12-01 01:00:00",
+	    "data_dependencies": [
+		{
+		    "id": "vnfdndsio2",
+		    "semantic_id": "article-by-topic",
+		    "item_name": "Article By Topic Breakdown"
+		},
+		{
+		    "id": "g8jrimf39j",
+		    "semantic_id": "article-by-author-and-region",
+		    "item_name": "Article by Author and Region"
+		}
+	    ]
+	}
+    ]
+}

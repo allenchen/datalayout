@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <style>
+      #data-library {
+        float:left;
+        width:60%;
+        height:500px;
+        #background-color:red;
+      }
+
+      #data-summary {
+        float:left;
+        width:40%;
+        height:500px;
+        background-color:#f0f0aa;
+      }
+
+      #data-library-content {
+        padding:0;
+        margin:0;
+        background-color:#f0f0f0;
+        display:inline-block;
+        width:100%;
+        height:100%;
+        list-style:none;
+      }
+      #data-library-content .ui-selecting {
+        background:pink;
+      }
+      #data-library-content .ui-selected {
+        background:red;
+      }
+      
+      #data-summary-content {
+        padding:25px;
+      }
+
+      #data-summary-content h1 {
+        padding:0;
+        margin:0;
+      }
+
+      .data-element {
+        #float:left;
+        display:block;
+        position:relative;
+        padding-left:18px;
+        #width:300px;
+        height:90px;
+        background-color:green;
+        margin:15px;
+        cursor:pointer;
+        list-style:none;
+      }
+      .data-element span {
+        display:inline-block;
+      }
+      .data-element .handle {
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        display:inline-block;
+        background-color:blue;
+        padding:9px;
+        #height:100%;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="js/app.js" charset="utf-8"></script>
+
+    <input type="text" id="data-library-search" />
+    <br /><br />
+
+    <div id="data-library">
+      <ol id="data-library-content">
+      </ol>
+    </div>
+    <div id="data-summary">
+      <div id="data-summary-content">
+      </div>
+    </div>
+
+  </body>
+</html>
